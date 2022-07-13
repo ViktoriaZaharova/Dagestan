@@ -1,0 +1,50 @@
+@import "vars"
+
+/*==========  section header ==========*/
+header
+  position: absolute
+  left: 0
+  top: 0
+  width: 100%
+  z-index: 10
+  padding: 61px 0 62px
+  &:before
+    content: ''
+    position: absolute
+    left: auto
+    bottom: 0
+    width: 100%
+    height: 3px
+    background: url("../img/line-header.png") no-repeat center
+      size: cover
+
+.list-contacts
+  width: 100%
+  display: flex
+  align-items: center
+  justify-content: center
+  font-size: 27px
+  font-weight: bold
+  line-height: 1
+  color: #fff
+  li
+    display: flex
+    align-items: center
+    &:after
+      content: '|'
+      display: inline-block
+      margin: 0 10px
+    &:last-child
+      &:after
+        display: none
+    a
+      color: #ffffff
+      &:hover
+        color: #fff
+/*==========  section header end  ==========*/
+
+
+
+/*==========  section  ==========*/
+
+/*==========  section end  ==========*/
