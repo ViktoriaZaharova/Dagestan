@@ -697,58 +697,318 @@
     .reviews:before {
       height: 1900px; } }
 
-@media only screen and (max-width: 480px) {
-  /**/ }
-
 /* Custom, iPhone Retina */
-@media only screen and (max-width: 400px) {
-  .program {
-    margin: 44px auto 0; }
-    .program h2 {
+@media only screen and (max-width: 440px) {
+  h1 {
+    font-size: 30px; }
+    h1 span:first-letter {
+      font-size: 50px; }
+  .decor1 {
+    max-width: 90px;
+    left: 27px;
+    top: 1450px; }
+  .decor2 {
+    max-width: 300px;
+    top: 1350px; }
+  .will .box-text, .goal .box-text {
+    font-size: 22px; }
+  .will h2, .goal h2 {
+    font-size: 40px; }
+  .decor3 {
+    left: -280px;
+    top: 1300px; }
+  .program-row2 .program-img, .program-row1 .program-img {
+    min-width: 580px; } }
+
+@media only screen and (max-width: 380px) {
+  header {
+    padding: 25px 0; }
+    header:before {
+      background: url("../img/line-mobile.png") no-repeat center;
+        background-size: cover;
+      height: 1px; }
+  .list-contacts {
+    font-size: 10px; }
+  .subtitle {
+    font-size: 15px; }
+  h1 {
+    font-size: 23px; }
+    h1 span:first-letter {
+      font-size: 48px; }
+  .home {
+    padding: 55px 0 235px; }
+    .home:before {
+      height: 1304px; }
+  .name-tour {
+    max-width: 290px; }
+  .date-tour {
+    margin: 0 auto 650px;
+    font-size: 16px; }
+    .date-tour p {
+      margin: 0 5px 0 0; }
+  .callback-box {
+    min-height: 170px; }
+  .about {
+    padding: 30px 0 320px;
+    margin: -180px 0 0; }
+    .about:before {
+      height: 1791px; }
+    .about h2 {
+      font-size: 32px;
+      margin: 0 auto 25px;
+      max-width: 250px; }
+      .about h2:first-letter {
+        font-size: 32px; }
+    .about .box-text {
+      font-size: 17px;
+      max-width: 290px; }
+  .about-content {
+    font-size: 17px; }
+    .about-content ul {
+      margin: 0 auto 34px;
+      max-width: 290px; }
+  h2 {
+    font-size: 32px; }
+    h2:first-letter {
+      letter-spacing: -0.51px;
+      font-size: 51px; }
+  .decor1 {
+    max-width: 73px;
+    top: 900px; }
+  .decor2 {
+    max-width: 271px;
+    top: 750px; }
+  .will {
+    margin: 0 auto 47px; }
+    .will .box-text {
+      font-size: 19px;
+      line-height: 1.34;
+      letter-spacing: -0.19px;
+      max-width: 300px; }
+    .will h2 {
+      font-size: 32px;
+      letter-spacing: -0.32px;
+      margin: 0 auto 20px; }
+      .will h2:first-letter {
+        letter-spacing: -0.51px;
+        font-size: 51px; }
+  .goal {
+    padding: 0 0 565px; }
+    .goal:before {
+      height: 1654px; }
+    .goal h2 {
+      font-size: 32px;
+      letter-spacing: -0.32px;
+      margin: 0 auto 20px; }
+      .goal h2:first-letter {
+        letter-spacing: -0.51px;
+        font-size: 51px; }
+    .goal .box-text {
+      font-size: 17px;
+      line-height: normal;
+      max-width: 290px; }
+      .goal .box-text p {
+        margin: 0 0 20px; }
+        .goal .box-text p:last-child {
+          margin: 0; }
+    .goal h4 {
+      font-size: 17px; }
+  .author {
+    margin: -200px 0 0; }
+    .author:before {
+      height: 1900px; }
+    .author h2 {
+      margin: 75px auto 0; }
+      .author h2:after {
+        top: -25px;
+        left: -60px;
+        width: 99px;
+        height: 91px; }
+    .author .box-text {
       max-width: 250px;
-      margin: 0 auto; }
+      margin: 624px auto 0;
+      font-size: 17px; }
+      .author .box-text p {
+        margin: 0 auto 20px; }
+        .author .box-text p:last-child {
+          margin: 0 auto; }
+      .author .box-text h3 {
+        font-size: 21px;
+        margin: 0 auto 23px; }
+  .plane {
+    padding: 115px 0 0; }
+    .plane h3 {
+      font-size: 19px;
+      margin: 0 auto 25px;
+      max-width: 288px; }
+    .plane .box-text {
+      font-size: 17px;
+      margin: 0 auto 46px;
+      max-width: 290px; }
+  .plane-box {
+    padding: 27px 0 50px; }
+    .plane-box__head {
+      margin: 0 auto 15px; }
+      .plane-box__head p {
+        font-size: 17px;
+        letter-spacing: -0.17px; }
+      .plane-box__head h4 {
+        font-size: 22px;
+        letter-spacing: -0.22px; }
+  .plane-box-icon {
+    margin: 16px auto 0; }
+    .plane-box-icon img {
+      max-width: 31px; }
+    .plane-box-icon:before, .plane-box-icon:after {
+      height: 1px;
+      width: calc(50% - 19px); }
+  .plane-box-step {
+    margin: 0 auto 28px; }
+    .plane-box-step .text {
+      font-size: 17px;
+      line-height: normal;
+      max-width: 290px; }
+    .plane-box-step__icon {
+      margin: 0 auto 12px;
+      max-width: 63px; }
+  .decor3 {
+    left: -265px;
+    top: 700px; }
+  .program {
+    padding: 330px 0 0;
+    margin: -303px 0 0; }
+    .program:before {
+      height: 1425px; }
+    .program h2 {
+      letter-spacing: -0.32px;
+      font-size: 32px;
+      margin: 0 auto 116px; }
+      .program h2:first-letter {
+        font-size: 51px;
+        letter-spacing: -0.51px; }
+  .program-row {
+    margin: 0 0 7px; }
+    .program-row .box-text {
+      font-size: 15px; }
+      .program-row .box-text p {
+        margin: 0 0 20px; }
+    .program-row:nth-child(odd) .program-content h3 {
+      margin: 0 0 20px; }
   .program-content h3 {
     font-size: 24.5px;
-    margin: 0 auto 20px; }
+    margin: 0 0 20px; }
     .program-content h3:before {
-      font-size: 61.5px;
-      bottom: -3px; }
-  .program-content .box-text {
-    max-width: 280px;
-    margin: 0 auto; }
-  .program-row:nth-child(even) .program-content h3 {
+      font-size: 95.5px;
+      left: -60px;
+      bottom: -25px; }
+  .program-row1 {
+    padding: 593px 0 0; }
+    .program-row1 .program-img {
+      min-width: 500px; }
+  .program-row2 {
+    padding: 670px 0 0; }
+    .program-row2 .program-img {
+      min-width: 500px;
+      top: -30px; }
+    .program-row2 h3:before {
+      left: -40px; }
+  .program-row3 {
+    padding: 697px 0 0; }
+    .program-row3 .program-img {
+      min-width: 500px;
+      top: -30px; }
+  .program-row4 {
+    padding: 610px 0 0; }
+    .program-row4 .program-img {
+      min-width: 500px;
+      top: -50px;
+      left: -40px; }
+  .accommodation {
+    padding: 50px 0 78px; }
+    .accommodation h2 {
+      margin: 0 auto 35px; }
+  .reviews-slider .slick-list {
+    margin: 0 -4px; }
+  .reviews-slider .slide {
+    margin: 0 4px; }
+  .reviews-slider__item {
+    width: 178px;
+    height: 178px;
+    border-radius: 14.2px; }
+  .slick-arrow {
+    width: 11px;
+    height: 17px; }
+  .slick-next {
+    right: 14px; }
+  .slick-prev {
+    left: 14px; }
+  .prices h2 {
+    letter-spacing: -0.88px;
+    font-size: 35px;
     margin: 0 auto 20px; }
-  .program-row {
-    margin: 0 auto 20px; }
-  .prices {
-    margin: 0 auto; }
-    .prices h2 {
-      font-size: 43px;
-      line-height: 43px; }
-      .prices h2 span {
-        font-size: 19.5px; }
-    .prices h3 {
-      line-height: 37px;
-      font-size: 37px; }
-      .prices h3 span {
-        font-size: 19.5px; }
-  .prices-wrapper:before {
-    width: 1px; }
+    .prices h2 span {
+      letter-spacing: -0.4px;
+      font-size: 16px; }
+      .prices h2 span:first-letter {
+        letter-spacing: -0.4px;
+        font-size: 16px; }
+  .title-box {
+    padding: 0 0 66px; }
+    .title-box:after {
+      height: 55px; }
+    .title-box h3 {
+      letter-spacing: -0.88px;
+      font-size: 35px; }
+      .title-box h3 span {
+        letter-spacing: -0.4px;
+        font-size: 16px; }
+  .air-img {
+    min-width: 461px;
+    margin: -38px 10px 10px -130px; }
+  .prices-wrapper {
+    padding: 0 0 68px; }
+    .prices-wrapper:before {
+      height: 55px; }
   .prices-box {
-    padding: 0 11px 0 0;
-    font-size: 13.5px; }
+    margin: 0 auto 14px;
+    font-size: 15px;
+    max-width: 180px; }
     .prices-box:last-child {
-      padding: 0 11px 0 0; }
-      .prices-box:last-child .dots-circle {
-        right: -8px; }
-    .prices-box:first-child {
-      margin: 0 0 12px auto;
-      padding: 0 0 0 11px; }
-      .prices-box:first-child .dots-circle {
-        left: -8px; }
+      padding: 31px 0 0;
+      max-width: 140px;
+      margin: 0 auto; }
     .prices-box .dots-circle {
       width: 16px;
-      height: 16px; }
+      height: 16px;
+      border: 1px solid #fff; }
       .prices-box .dots-circle:before {
         width: 10px;
-        height: 10px; } }
+        height: 10px;
+        border: 1px solid #fff; }
+  .callback {
+    padding: 70px 0; }
+  .callback-box {
+    font-size: 24px; }
+  .reviews {
+    padding: 0 0 250px; }
+    .reviews:before {
+      height: 1500px; }
+    .reviews h2 {
+      margin: 0 auto 30px; } }
+
+@media only screen and (max-width: 340px) {
+  .date-tour {
+    margin: 0 auto 550px; }
+  .about {
+    padding: 90px 0 320px; }
+  .decor1 {
+    top: 830px; }
+  .decor3 {
+    top: 730px;
+    left: -230px; }
+  .program-row1 .program-img {
+    min-width: 450px; }
+  .program-row2 .program-img {
+    min-width: 480px; }
+  .air-img {
+    margin: -45px 10px 10px -160px; } }
