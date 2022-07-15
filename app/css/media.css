@@ -180,6 +180,8 @@
 @media only screen and (max-width: 870px) {
   .prices-box h4 span {
     display: block; }
+  .about:before {
+    top: 0; }
   .goal {
     padding: 0 0 1200px; }
   .author:before {
@@ -269,6 +271,13 @@
   .about:before {
     top: 0;
     height: 4575px; }
+  .about h2 {
+    font-size: 76.2px;
+    letter-spacing: -0.76px;
+    max-width: 570px; }
+    .about h2:first-letter {
+      font-size: 76.2px;
+      letter-spacing: -0.76px; }
   .about-content ul, .about-content .box-text {
     max-width: 670px; }
   .decor1 {
@@ -326,7 +335,7 @@
       min-width: 1071px; }
       .program-row1 .program-img img {
         width: 100%; }
-    .program-row1 .program-content h3:before {
+    .program-row1 h3:before {
       left: -150px; }
   .program-row2 {
     padding: 1513px 0 0; }
@@ -419,39 +428,274 @@
     padding: 225px 0 0; } }
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width: 576px) {
-  .program-row:nth-child(even) .program-content h3 {
+@media only screen and (max-width: 685px) {
+  h1 {
+    font-size: 34.5px; }
+    h1 span:first-letter {
+      font-size: 72px; }
+  .decor1 {
+    max-width: 120px;
+    top: 1300px;
+    left: 41px; }
+  .decor2 {
+    max-width: 407px;
+    top: 1200px; }
+  header {
+    padding: 39px 0 38px; }
+    header:before {
+      background: url("../img/line-480.png") no-repeat center;
+        background-size: cover; }
+  .list-contacts {
+    font-size: 20px; }
+  .home {
+    padding: 90px 0 172px; }
+    .home:before {
+      height: 2300px; }
+  .subtitle {
+    font-size: 22px;
+    margin: 10px auto 20px; }
+  .name-tour {
+    max-width: 430px; }
+  .date-tour {
+    font-size: 24px; }
+  h2, .about h2 {
+    letter-spacing: -0.48px;
+    font-size: 47.5px; }
+    h2:first-letter, .about h2:first-letter {
+      letter-spacing: -0.76px;
+      font-size: 76px; }
+  .about {
+    padding: 150px 0 483px;
+    margin: -200px 0 0; }
+    .about:before {
+      height: 3000px; }
+    .about h2 {
+      margin: 0 auto 37px;
+      max-width: 360px; }
+      .about h2:first-letter {
+        letter-spacing: -0.48px;
+        font-size: 47.5px; }
+  .about-content {
+    font-size: 30px; }
+    .about-content ul {
+      margin: 0 auto 50px; }
+  .will .box-text, .goal .box-text, .goal h4 {
+    font-size: 30px; }
+  .will {
+    margin: 0 0 72px; }
+  .program h2 {
+    letter-spacing: -0.48px;
+    font-size: 47.5px;
+    max-width: 450px; }
+    .program h2:first-letter {
+      letter-spacing: -0.76px;
+      font-size: 76px; } }
+
+@media only screen and (max-width: 520px) {
+  .list-contacts {
+    font-size: 17px; }
+  .home {
+    padding: 90px 0 352px; }
+    .home:before {
+      height: 1731px; }
+  .callback-box {
+    min-height: 250px; }
+  .date-tour {
+    margin: 0 auto 768px; }
+  .about {
+    margin: -300px auto 0; }
+  .about-content {
+    font-size: 25.5px; }
+    .about-content ul, .about-content .box-text {
+      max-width: 410px; }
+    .about-content h4 {
+      max-width: 430px;
+      margin: 30px auto 0; }
+  .decor1 {
+    max-width: 109px; }
+  .decor2 {
+    max-width: 407px; }
+  .will {
     margin: 0 auto 30px; }
-  .program-content h3 {
-    line-height: 1.07;
-    font-size: 20.5px;
-    margin: 0 auto 30px; }
-    .program-content h3:before {
-      font-size: 92.5px;
-      bottom: -7px; }
+    .will .box-text {
+      font-size: 28.5px; }
+      .will .box-text br {
+        display: none; }
+  .goal {
+    padding: 0 0 750px; }
+    .goal:before {
+      height: 2029px; }
+    .goal .box-text {
+      font-size: 25.5px; }
+      .goal .box-text p {
+        margin: 0 0 30px; }
+    .goal h4 {
+      font-size: 25.5px; }
+  .author:before {
+    height: 2603px; }
+  .author h2 {
+    margin: 100px auto 0; }
+    .author h2:after {
+      width: 150px;
+      height: 139px;
+      left: -100px; }
+  .author .box-text {
+    margin: 900px auto 0;
+    font-size: 25.5px;
+    max-width: 370px; }
+  .author h3 {
+    font-size: 32px;
+    margin: 0 auto 40px; }
+  .plane {
+    padding: 173px 0 0; }
+    .plane:before {
+      height: calc(100% - 700px); }
+    .plane .box-text {
+      font-size: 25.5px;
+      margin: 0 auto 69px;
+      max-width: 430px; }
+    .plane h3 {
+      font-size: 28.5px;
+      margin: 0 auto 40px; }
+  .plane-box {
+    margin: 0 -15px 25px;
+    padding: 39px 0 74px; }
+    .plane-box__head {
+      margin: 0 auto 21px; }
+      .plane-box__head p {
+        letter-spacing: -0.26px;
+        font-size: 25.5px; }
+      .plane-box__head h4 {
+        font-size: 33.5px;
+        letter-spacing: -0.34px; }
+  .plane-box-step {
+    margin: 0 auto 40px; }
+    .plane-box-step .text {
+      font-size: 25.5px; }
+    .plane-box-step__icon {
+      margin: 0 auto 18px;
+      max-width: 95px; }
+  .plane-box-icon {
+    margin: 24px auto 0; }
+    .plane-box-icon img {
+      max-width: 47px; }
+    .plane-box-icon:before, .plane-box-icon::after {
+      width: calc(50% - 30px); }
+  .decor3 {
+    left: -370px;
+    top: 1850px; }
+  .program {
+    padding: 495px 0 0;
+    margin: -453px 0 0; }
+    .program:before {
+      height: 2136px; }
+    .program h2 {
+      margin: 0 auto 173px; }
   .program-row {
-    margin: 0 auto 30px; }
+    margin: 0 0 12px; }
+    .program-row .box-text {
+      font-size: 22px; }
+      .program-row .box-text p {
+        margin: 0 0 30px; }
+    .program-row:nth-child(odd) .program-content h3 {
+      margin: 0 0 32px; }
+  .program-content h3 {
+    margin: 0 0 32px;
+    font-size: 37px; }
+    .program-content h3:before {
+      font-size: 143px;
+      bottom: -33px; }
+  .program-row1 {
+    padding: 875px 0 0; }
+    .program-row1 .program-img {
+      min-width: 680px; }
+    .program-row1 h3:before {
+      left: -100px; }
+  .program-row2 {
+    padding: 946px 0 0; }
+    .program-row2 .program-img {
+      min-width: 650px; }
+    .program-row2 h3:before {
+      left: -70px; }
+  .program-row3 {
+    padding: 1030px 0 0; }
+    .program-row3 .program-img {
+      min-width: 680px; }
+    .program-row3 h3:before {
+      left: -100px; }
+  .program-row4 {
+    padding: 914px 0 0; }
+    .program-row4 .program-img {
+      min-width: 690px; }
+    .program-row4 h3:before {
+      left: -80px; }
+  .accommodation {
+    padding: 76px 0 117px; }
+    .accommodation h2 {
+      margin: 0 auto 53px; }
+  .reviews-slider .slick-list {
+    margin: 0 -6px; }
+  .reviews-slider .slide {
+    margin: 0 6px; }
+  .reviews-slider__item {
+    width: 267px;
+    height: 267px; }
+  .slick-arrow {
+    width: 16px;
+    height: 24px; }
+  .slick-prev {
+    left: 8px; }
+  .slick-next {
+    right: 8px; }
   .prices h2 {
-    font-size: 64px;
-    line-height: 64px; }
+    font-size: 52.5px;
+    letter-spacing: -1.31px;
+    margin: 0 auto 30px; }
     .prices h2 span {
-      font-size: 29.5px;
-      line-height: 1.88; }
+      letter-spacing: -0.6px;
+      font-size: 24px; }
+      .prices h2 span:first-letter {
+        font-size: 24px;
+        letter-spacing: -0.6px; }
+  .title-box {
+    padding: 0 0 98px; }
+    .title-box:after {
+      height: 83px;
+      width: 2px; }
+    .title-box h3 {
+      font-size: 52.5px;
+      letter-spacing: -1.31px; }
+      .title-box h3 span {
+        letter-spacing: -0.6px;
+        font-size: 24px; }
+  .air-img {
+    min-width: 692px;
+    margin: -78px 15px 0 -230px; }
   .prices-wrapper {
-    padding: 40px 0 0; }
+    padding: 0 0 102px; }
+    .prices-wrapper:before {
+      height: 83px;
+      width: 2px; }
   .prices-box {
-    line-height: 1.07;
-    font-size: 20.5px; }
+    max-width: 270px;
+    font-size: 22px; }
     .prices-box .dots-circle {
-      right: -11.5px;
-      border: solid 1.3px #fff;
       width: 23px;
       height: 23px; }
       .prices-box .dots-circle:before {
         width: 14px;
         height: 14px; }
-  .prices-box:first-child .dots-circle {
-    left: -11.5px; } }
+    .prices-box:first-child {
+      margin: 0 auto 22px; }
+    .prices-box:last-child {
+      padding: 55px 0 0;
+      max-width: 210px; }
+  .callback {
+    padding: 128px 0 0; }
+  .reviews {
+    padding: 125px 0 300px; }
+    .reviews:before {
+      height: 1900px; } }
 
 @media only screen and (max-width: 480px) {
   /**/ }
