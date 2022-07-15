@@ -285,12 +285,7 @@ h2 {
     background-size: 100%; }
 
 .list-dots li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start; }
+  display: inline-block; }
   .list-dots li:before {
     content: '•';
     display: inline-block;

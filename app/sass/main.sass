@@ -25,6 +25,8 @@
   line-height: 0.93
   text-shadow: -1.7px 4.7px 46px rgba(89, 89, 89, 0.97)
   margin: 0 auto 20px
+  img
+    width: 100%
 
 .date-tour
   width: 100%
@@ -71,7 +73,7 @@
   width: 100%
   margin: 0 auto
   strong
-    display: inline-block
+    display: inline
     margin: 0 0 0 5px
     font-weight: 800
   ul
@@ -85,6 +87,8 @@
     text-transform: uppercase
     max-width: 900px
     margin: 40px 0 0
+    br
+      display: none
 
 .decor
   position: absolute
@@ -126,6 +130,8 @@
     letter-spacing: -0.46px
     font-family: $title-font
     filter: drop-shadow(0 0 10px #5b5f2f)
+    br
+      display: none
 
 /*==========  section will end  ==========*/
 
@@ -182,12 +188,12 @@
     left: 0
     top: 0
     background: url("../img/author-bg.png") no-repeat center top
-      size: 100%
+      size: cover
   h2
     color: #fff
     position: relative
     width: fit-content
-    margin: 0 auto 469px
+    margin: 100px auto 409px
     &:after
       content: ''
       width: 486px
@@ -211,7 +217,10 @@
     font-size: 50.8px
     color: #82664c
     font-family: $title-font
+    margin: 0 auto 50px
 
+.img-tablet
+  display: none
 /*==========  section end  ==========*/
 
 
@@ -340,10 +349,20 @@
   z-index: 3
   padding: 800px 0 0
   margin: -656px 0 0
-  background: url("../img/days-bg.png") no-repeat center top
-    size: 100%
+  //background: url("../img/days-bg.png") no-repeat center top
+  //  size: 100%
+  &:before
+    content: ''
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 3415px
+    background: url("../img/days-bg.png") no-repeat center top
+      size: cover
+    z-index: -1
   h2
-    margin: 0 auto 567px
+    margin: 0 auto 529px
     max-width: 700px
     font-size: 91.4px
     letter-spacing: -0.91px
@@ -645,8 +664,11 @@
 
 
 .reviews-slider
+  .slide
+    margin: 0 10.5px
   &__item
-    width: 100%
+    margin: 0 auto
+    width: 426px
     height: 426px
     border-radius: 34px
     background-color: #d5dbe2
@@ -657,10 +679,6 @@
       width: 100%
       height: 100%
       object-fit: cover
-  .slide
-    padding: 0 10px
-  .slick-list
-    margin: 0 -10px
 
 
 /*==========  section reviews end  ==========*/

@@ -23,6 +23,8 @@
   line-height: 0.93;
   text-shadow: -1.7px 4.7px 46px rgba(89, 89, 89, 0.97);
   margin: 0 auto 20px; }
+  .name-tour img {
+    width: 100%; }
 
 .date-tour {
   width: 100%;
@@ -71,7 +73,7 @@
   width: 100%;
   margin: 0 auto; }
   .about-content strong {
-    display: inline-block;
+    display: inline;
     margin: 0 0 0 5px;
     font-weight: 800; }
   .about-content ul {
@@ -85,6 +87,8 @@
     text-transform: uppercase;
     max-width: 900px;
     margin: 40px 0 0; }
+    .about-content h4 br {
+      display: none; }
 
 .decor {
   position: absolute;
@@ -131,6 +135,8 @@
     font-family: "Colus", sans-serif;
     -webkit-filter: drop-shadow(0 0 10px #5b5f2f);
             filter: drop-shadow(0 0 10px #5b5f2f); }
+    .will .box-text br {
+      display: none; }
 
 /*==========  section will end  ==========*/
 /*==========  section goal ==========*/
@@ -182,14 +188,14 @@
     left: 0;
     top: 0;
     background: url("../img/author-bg.png") no-repeat center top;
-      background-size: 100%; }
+      background-size: cover; }
   .author h2 {
     color: #fff;
     position: relative;
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    margin: 0 auto 469px; }
+    margin: 100px auto 409px; }
     .author h2:after {
       content: '';
       width: 486px;
@@ -212,7 +218,11 @@
   .author h3 {
     font-size: 50.8px;
     color: #82664c;
-    font-family: "Colus", sans-serif; }
+    font-family: "Colus", sans-serif;
+    margin: 0 auto 50px; }
+
+.img-tablet {
+  display: none; }
 
 /*==========  section end  ==========*/
 /*==========  section plane ==========*/
@@ -348,11 +358,19 @@
   position: relative;
   z-index: 3;
   padding: 800px 0 0;
-  margin: -656px 0 0;
-  background: url("../img/days-bg.png") no-repeat center top;
-    background-size: 100%; }
+  margin: -656px 0 0; }
+  .program:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 3415px;
+    background: url("../img/days-bg.png") no-repeat center top;
+      background-size: cover;
+    z-index: -1; }
   .program h2 {
-    margin: 0 auto 567px;
+    margin: 0 auto 529px;
     max-width: 700px;
     font-size: 91.4px;
     letter-spacing: -0.91px;
@@ -668,8 +686,12 @@
   .reviews h2 {
     color: #fff; }
 
+.reviews-slider .slide {
+  margin: 0 10.5px; }
+
 .reviews-slider__item {
-  width: 100%;
+  margin: 0 auto;
+  width: 426px;
   height: 426px;
   border-radius: 34px;
   background-color: #d5dbe2;
@@ -687,11 +709,5 @@
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover; }
-
-.reviews-slider .slide {
-  padding: 0 10px; }
-
-.reviews-slider .slick-list {
-  margin: 0 -10px; }
 
 /*==========  section reviews end  ==========*/
