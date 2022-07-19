@@ -435,11 +435,11 @@
       font-size: 72px; }
   .decor1 {
     max-width: 120px;
-    top: 1300px;
+    top: 1450px;
     left: 41px; }
   .decor2 {
     max-width: 407px;
-    top: 1200px; }
+    top: 1300px; }
   header {
     padding: 39px 0 38px; }
     header:before {
@@ -465,7 +465,7 @@
       letter-spacing: -0.76px;
       font-size: 76px; }
   .about {
-    padding: 150px 0 483px;
+    padding: 150px 0 450px;
     margin: -200px 0 0; }
     .about:before {
       height: 3000px; }
@@ -479,6 +479,8 @@
     font-size: 30px; }
     .about-content ul {
       margin: 0 auto 50px; }
+    .about-content .br-mob {
+      display: block; }
   .will .box-text, .goal .box-text, .goal h4 {
     font-size: 30px; }
   .will {
@@ -495,7 +497,7 @@
   .list-contacts {
     font-size: 17px; }
   .home {
-    padding: 90px 0 352px; }
+    padding: 90px 0 200px; }
     .home:before {
       height: 1731px; }
   .callback-box {
@@ -506,8 +508,10 @@
     margin: -300px auto 0; }
   .about-content {
     font-size: 25.5px; }
-    .about-content ul, .about-content .box-text {
+    .about-content ul {
       max-width: 410px; }
+    .about-content .box-text {
+      max-width: none; }
     .about-content h4 {
       max-width: 430px;
       margin: 30px auto 0; }
@@ -516,7 +520,7 @@
   .decor2 {
     max-width: 407px; }
   .will {
-    margin: 0 auto 30px; }
+    margin: 0 auto 70px; }
     .will .box-text {
       font-size: 28.5px; }
       .will .box-text br {
@@ -606,7 +610,7 @@
       font-size: 143px;
       bottom: -33px; }
   .program-row1 {
-    padding: 875px 0 0; }
+    padding: 835px 0 0; }
     .program-row1 .program-img {
       min-width: 680px; }
     .program-row1 h3:before {
@@ -695,7 +699,9 @@
   .reviews {
     padding: 125px 0 300px; }
     .reviews:before {
-      height: 1900px; } }
+      height: 1900px; }
+  h2, .about h2 {
+    font-size: 40px; } }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 440px) {
@@ -706,10 +712,10 @@
   .decor1 {
     max-width: 90px;
     left: 27px;
-    top: 1450px; }
+    top: 1350px; }
   .decor2 {
     max-width: 300px;
-    top: 1350px; }
+    top: 1250px; }
   .will .box-text, .goal .box-text {
     font-size: 22px; }
   .will h2, .goal h2 {
@@ -718,7 +724,11 @@
     left: -280px;
     top: 1300px; }
   .program-row2 .program-img, .program-row1 .program-img {
-    min-width: 580px; } }
+    min-width: 580px; }
+  .program-row1 {
+    padding: 755px 0 0; }
+  .about {
+    padding: 150px 0 380px; } }
 
 @media only screen and (max-width: 380px) {
   header {
@@ -767,9 +777,9 @@
     .about-content ul {
       margin: 0 auto 34px;
       max-width: 290px; }
-  h2 {
+  h2, .about h2 {
     font-size: 32px; }
-    h2:first-letter {
+    h2:first-letter, .about h2:first-letter {
       letter-spacing: -0.51px;
       font-size: 51px; }
   .decor1 {
@@ -1002,7 +1012,9 @@
   .about {
     padding: 90px 0 320px; }
   .decor1 {
-    top: 830px; }
+    top: 850px; }
+  .decor2 {
+    top: 800px; }
   .decor3 {
     top: 730px;
     left: -230px; }
